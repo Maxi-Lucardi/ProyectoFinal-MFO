@@ -413,7 +413,7 @@ body {
 .contacto-formulario {
     height: 500px;
     width: 50%;
-    background-color: #ebf0ea;
+    background-color: #ccf6e4;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -443,6 +443,7 @@ footer {
     color: #f5f5f5;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 20px;
 }
 
 .contact-btn {
@@ -465,8 +466,8 @@ footer {
 .redes-sociales h3{
     text-align: center;
     font-size: 30px;
-
 }
+
 .redes-listado li {
     text-decoration: none;
     list-style-type: none;
@@ -491,6 +492,10 @@ text-align: center;
 }
 .horarios h3{
     text-align: center;
+}
+
+.redes-sociales, .map, .horarios{
+    margin-top: 10px;
 }
 
 /* a los 700px hay que poner la barra de hamburguesa */
